@@ -1,0 +1,467 @@
+@media screen and (max-width: 800px) {
+  .txt-nav {flex-direction: column;} 
+  nav ul {flex-direction: column;}
+  ul {flex-direction: column;}
+  .container-main{ display: flex; flex-direction: column; }
+  .projects, .experience, .education { flex-direction: column; ; }
+  .container-footer{ display: flex; flex-direction: column;}
+  .reviews { flex-direction: column;}
+  .p-container { display: flex; flex-direction: column;}
+  .p-projects { flex-direction: column; padding-bottom: 5%;}
+}
+* {
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  background-color: #52796F;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 45%;
+}
+
+nav ul li a {
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+}
+
+nav ul li a:hover {
+  background-color: #354F52;
+}
+
+.txt-nav{
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  padding: 14px 30px;
+  float: left;
+}
+
+
+.title{
+  margin: 0;
+  height: 70%;
+  background-color: #84A98C;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  color: white;
+}
+.txt-title{
+  margin: 0;
+  justify-items: center;
+  padding: 9%;
+}
+.container-main{
+  display: flex; 
+  height: auto;
+  background-color: 84A98C;
+}
+
+.projects{
+  flex: 25%;
+  background-color: #84A98C;
+  border: 2px solid #CAD2C5;
+  border-radius: 8px;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-top: 8%;
+  font-family: "Archivo Black", sans-serif;
+  font-style: bold;
+  color: white
+}
+
+.projects ul li{
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+}
+
+.projects ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #84A98C;
+}
+
+.projects li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.projects li a:hover {
+  background-color: #52796F;
+  color: white;
+}
+
+.experience{
+  flex: 45%;
+  background-color: #84A98C;
+  border: 2px solid #CAD2C5;
+  border-radius: 8px;
+  padding-bottom: 3%;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-top: 6%;
+  font-family: "Archivo Black", sans-serif;
+  font-style: bold;
+  color: white
+}
+
+.experience h5 {
+  color: white;
+  justify-content: left;
+  margin-left: 10%;
+}
+
+.experience p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: white;
+  justify-content: left;
+  margin-left: 10%;
+}
+
+.experience a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: white;
+  justify-content: left;
+  margin-left: 10%;
+}
+
+.education{
+  flex: 35%;
+  background-color: #84A98C;
+   border: 2px solid #CAD2C5;
+  border-radius: 8px;
+}
+
+.education h2{
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-style: bold;
+  margin-top: 6%;
+  text-align: center;
+}
+
+.education h4{
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-style: bold;
+  justify-content: left;
+  margin-left: 10%;
+}
+
+.education p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  justify-content: left;
+  margin-left: 10%;
+}
+
+.education li {
+  color: white;
+  margin-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt-review{
+  display: flex; 
+  justify-content: center;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-style: bold;
+  background-color: #84A98C;;
+  height: 20%;
+  padding-top: 3%;
+}
+
+.container-footer{
+  display: flex; 
+  height: 55%;
+  background-color: #84A98C;
+  justify-content: center;
+  height: auto;
+}
+
+.reviews{
+  background-color: #52796F;
+  border: 2px solid #52796F;
+  border-radius: 20px;
+  flex: 30%;
+  height: 50%;
+  margin: 9px;
+  margin-bottom: 5%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reviews p {
+  text-align: left;
+  margin-left: 9%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.reviews h3 {
+  text-align: left;
+  margin-left: 9%;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.reviews h5 {
+  text-align: left;
+  margin-left: 9%;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.footer{
+  background-color: #52796F;
+  color: white;
+  height: 8%;
+  text-align: center;
+  border: 1px solid #52796F;
+  
+}
+
+.footer p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.p-container{
+  display: flex;
+  background-color: #84A98C;
+  height: auto;
+}
+
+.txt-projects{
+    background-color: #84A98C;
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 5%;
+    font-family: "Archivo Black", sans-serif;
+    font-style: bold;
+}
+
+.p-projects{
+  border: 2px solid #52796F;
+  border-radius: 8px;
+  flex: 40%;
+  height: auto;
+  margin: 2%;
+  margin-bottom: 11.5%;
+  color: white;
+  background-color: #52796F;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.p-projects h2{
+  color: white;
+  margin-top: 13%;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+.p-projects p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 6%;
+}
+
+.p-projects a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 6%;
+  font-style: italic;
+}
+
+
+
+.p-projects img{
+  margin-left: 6%;
+}
+
+.txt-articles{
+  background-color: #84A98C;
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 3%;
+    font-family: "Archivo Black", sans-serif;
+    font-style: bold;
+}
+
+.a-container{
+  background-color: #84A98C;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.article{
+  background-color: #52796F;
+  border: 2px solid #52796F;
+  border-radius: 9px;
+  width: 50%;
+  height: 60%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article h2{
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  text-align: left;
+  margin-left: 9%;
+}
+
+.article h4{
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  text-align: left;
+  margin-left: 9%;
+}
+
+.article p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 9%;
+}
+
+.article a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: left;
+  float: right;
+  margin-right: 7%
+}
+
+.c-container{
+  background-color: #84A98C;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.txt-contact{
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 3%;
+  font-family: "Archivo Black", sans-serif;
+  font-style: bold;
+}
+
+label {
+  margin-left: 15%;
+  color: white; 
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+
+}
+
+input[type=text]{
+  width: 70%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 15%;
+}
+
+input[type=email]{
+  width: 70%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 15%;
+}
+
+textarea{
+  width: 70%;
+  padding: 12px;
+  height: 90px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 15%;
+  resize: none;
+}
+
+.form{
+  border: 1px solid #52796F;
+  border-radius: 9px;
+  background-color: #52796F;
+  width: 50%; 
+  height: 50%;
+  margin-left: 25%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-bottom: 5%
+}
+
+.button{
+  background-color: #84A98C;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 15%;
+  margin-top: 5%;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  color: white
+}
+
+.button:hover{
+  background-color: #354F52;
+}
